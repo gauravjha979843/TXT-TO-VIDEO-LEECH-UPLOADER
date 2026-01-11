@@ -2,8 +2,8 @@
 
 from os import environ
 
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
+API_ID = int(environ.get("API_ID", "30744675"))
+API_HASH = environ.get("API_HASH", "2b2ab5de1550aaf6e8c4bb91daf8d1cf")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 # Force Subscribe Configuration
@@ -18,6 +18,7 @@ OWNER_ID = int(environ.get("OWNER_ID", ""))
 
 # Database URL (if you want to add database support later)
 DATABASE_URL = environ.get("DATABASE_URL", "")
+
 
 
 
